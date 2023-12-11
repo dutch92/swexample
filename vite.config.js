@@ -8,8 +8,5 @@ export default defineConfig({
     strategies: 'injectManifest',
     srcDir: 'src',
     filename: 'my-sw.js'
-  })],
-  build: {
-    outDir: 'docs'
-  }
+  })]
 })
