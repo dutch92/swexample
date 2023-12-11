@@ -9,4 +9,7 @@ export default defineConfig({
     srcDir: 'src',
     filename: 'my-sw.js'
   })],
+  build: {
+    outDir: 'docs'
+  }
 })
