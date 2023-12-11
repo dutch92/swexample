@@ -8,6 +8,5 @@ export default defineConfig({
     strategies: 'injectManifest',
     srcDir: 'src',
     filename: 'my-sw.js'
-  })],
-  base: 'dutch92.github.io',
+  })]
 })
