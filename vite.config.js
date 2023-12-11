@@ -9,5 +9,5 @@ export default defineConfig({
     srcDir: 'src',
     filename: 'my-sw.js'
   })],
-  base: 'swexample',
+  base: '/swexample/',
 })
