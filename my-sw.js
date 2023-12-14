@@ -1233,7 +1233,7 @@ class ae extends K {
     return s;
   }
 }
-se([{"revision":null,"url":"assets/index-NNiAbaVx.css"},{"revision":null,"url":"assets/index-sz9X3tTF.js"},{"revision":"9881ee692b88e587cde497fcdf5eb796","url":"fonts.css"},{"revision":"f6431f237f05c5ec6d98b76383b80985","url":"index.html"},{"revision":"b09fd4d0fd981dede101975ba912199b","url":"registerSW.js"},{"revision":"663d843d81e82ab934ffe8d64451442f","url":"manifest.webmanifest"}]);
+se([{"revision":null,"url":"assets/index-NNiAbaVx.css"},{"revision":null,"url":"assets/index-sz9X3tTF.js"},{"revision":"1129ed907e8ad3ac21e021d182c0f4a8","url":"fonts.css"},{"revision":"f6431f237f05c5ec6d98b76383b80985","url":"index.html"},{"revision":"b09fd4d0fd981dede101975ba912199b","url":"registerSW.js"},{"revision":"663d843d81e82ab934ffe8d64451442f","url":"manifest.webmanifest"}]);
 console.log("HELLO worlds 1");
 x(({ request: a }) => (console.log(a.destination), console.log(a.url), a.destination === "font"), new ae({
   cacheName: "fonts"
