@@ -122,14 +122,14 @@ async function S(a, e) {
   }, r = e ? e(n) : n, c = D() ? s.body : await s.blob();
   return new Response(c, r);
 }
-const q = (a) => new URL(String(a), location.href).href.replace(new RegExp(`^${location.origin}`), "");
+const H = (a) => new URL(String(a), location.href).href.replace(new RegExp(`^${location.origin}`), "");
 function P(a, e) {
   const t = new URL(a);
   for (const s of e)
     t.searchParams.delete(s);
   return t.href;
 }
-async function H(a, e, t, s) {
+async function j(a, e, t, s) {
   const n = P(e.url, t);
   if (e.url === n)
     return a.match(e, s);
@@ -140,7 +140,7 @@ async function H(a, e, t, s) {
       return a.match(i, s);
   }
 }
-class j {
+class q {
   /**
    * Creates a promise and exposes its resolve and reject functions as methods.
    */
@@ -183,7 +183,7 @@ class V {
    *     {@link workbox-routing~matchCallback} (if applicable).
    */
   constructor(e, t) {
-    this._cacheKeys = {}, Object.assign(this, t), this.event = t.event, this._strategy = e, this._handlerDeferred = new j(), this._extendLifetimePromises = [], this._plugins = [...e.plugins], this._pluginStateMap = /* @__PURE__ */ new Map();
+    this._cacheKeys = {}, Object.assign(this, t), this.event = t.event, this._strategy = e, this._handlerDeferred = new q(), this._extendLifetimePromises = [], this._plugins = [...e.plugins], this._pluginStateMap = /* @__PURE__ */ new Map();
     for (const s of this._plugins)
       this._pluginStateMap.set(s, {});
     this.event.waitUntil(this._handlerDeferred.promise);
@@ -301,12 +301,12 @@ class V {
     const n = await this.getCacheKey(s, "write");
     if (!t)
       throw new l("cache-put-with-no-response", {
-        url: q(n.url)
+        url: H(n.url)
       });
     const r = await this._ensureResponseSafeToCache(t);
     if (!r)
       return !1;
-    const { cacheName: c, matchOptions: i } = this._strategy, o = await self.caches.open(c), h = this.hasCallback("cacheDidUpdate"), g = h ? await H(
+    const { cacheName: c, matchOptions: i } = this._strategy, o = await self.caches.open(c), h = this.hasCallback("cacheDidUpdate"), g = h ? await j(
       // TODO(philipwalton): the `__WB_REVISION__` param is a precaching
       // feature. Consider into ways to only add this behavior if using
       // precaching.
@@ -1233,8 +1233,8 @@ class ae extends K {
     return s;
   }
 }
-se([{"revision":null,"url":"assets/index-NNiAbaVx.css"},{"revision":null,"url":"assets/index-sz9X3tTF.js"},{"revision":"def83211eebf80a18e76b509d2361906","url":"fonts.css"},{"revision":"f6431f237f05c5ec6d98b76383b80985","url":"index.html"},{"revision":"b09fd4d0fd981dede101975ba912199b","url":"registerSW.js"},{"revision":"663d843d81e82ab934ffe8d64451442f","url":"manifest.webmanifest"}]);
+se([{"revision":null,"url":"assets/index-NNiAbaVx.css"},{"revision":null,"url":"assets/index-sz9X3tTF.js"},{"revision":"a7b8f3007dd381f66eacaf1b4626c734","url":"fonts.css"},{"revision":"f6431f237f05c5ec6d98b76383b80985","url":"index.html"},{"revision":"b09fd4d0fd981dede101975ba912199b","url":"registerSW.js"},{"revision":"663d843d81e82ab934ffe8d64451442f","url":"manifest.webmanifest"}]);
 console.log("HELLO worlds 1");
-x(({ request: a }) => (console.log(a.destination), a.destination === "font"), new ae({
+x(({ request: a }) => (console.log(a.destination), console.log(a.url), a.destination === "font"), new ae({
   cacheName: "fonts"
 }));
