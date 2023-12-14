@@ -6,6 +6,10 @@ precacheAndRoute(self.__WB_MANIFEST);
 
 console.log('HELLO worlds 1')
 
-registerRoute(({ request }) => request.destination === 'font', new CacheFirst({
+registerRoute(({ request }) => {
+  console.log(request.destination);
+
+  return request.destination === 'font';
+}, new CacheFirst({
   cacheName: 'fonts'
 }));
