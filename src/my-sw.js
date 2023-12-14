@@ -8,6 +8,7 @@ console.log('HELLO worlds 1')
 
 registerRoute(({ request }) => {
   console.log(request.destination);
+  console.log(request.url);
 
   return request.destination === 'font';
 }, new CacheFirst({
