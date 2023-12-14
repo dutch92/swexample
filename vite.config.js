@@ -5,10 +5,11 @@ import {VitePWA} from 'vite-plugin-pwa'
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react(), VitePWA({
-    filename: 'my-sw.js',
-    workbox: {
+    strategies: 'injectManifest',
+    injectManifest: {
       globPatterns: ['**/*.{js,css,html,ico,png,svg,otf}']
-    }
+    },
+    filename: 'my-sw.js',
   })],
   base: '/swexample/',
 })
