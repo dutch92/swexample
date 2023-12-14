@@ -1,7 +1,7 @@
 @font-face {
   font-weight: 400;
   font-family: 'Brandon';
-  /*src: url('https://assets.safariportal.app/903f0e4c/static/media/Brandon_med.6c7d60fa.otf') format('truetype');*/
-  src: url('https://safariportal-assets-production.s3.amazonaws.com/fonts/Brandon_reg.otf') format('truetype');
+  src: url('https://assets.safariportal.app/903f0e4c/static/media/Brandon_med.6c7d60fa.otf') format('truetype');
+  /*src: url('https://safariportal-assets-production.s3.amazonaws.com/fonts/Brandon_reg.otf') format('truetype');*/
   font-style: normal;
 }
