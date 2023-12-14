@@ -1,8 +1,6 @@
 @font-face {
   font-weight: 400;
   font-family: 'Brandon';
-  src: url('https://assets.sandbox.safariportal.app/21e9ca9a/static/media/HoeflerText-Regular.52a82c58.ttf') format('truetype');
-  /*src: url('https://safariportal-assets-production.s3.amazonaws.com/fonts/Brandon_reg.otf') format('truetype');*/
-  /*src: url('https://fonts.gstatic.com/s/rubikbubbles/v3/JIA1UVdwbHFJtwA7Us1BPFbRBTYHfR5xVXM.woff2') format('woff2');*/
+  src: url('Brandon_reg.otf') format('truetype');
   font-style: normal;
 }
