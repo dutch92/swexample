@@ -6,7 +6,9 @@ import {VitePWA} from 'vite-plugin-pwa'
 export default defineConfig({
   plugins: [react(), VitePWA({
     strategies: 'injectManifest',
+    manifest: false,
     injectManifest: {
+      injectionPoint: null,
       globPatterns: ['**/*.{js,css,html,ico,png,svg,otf}']
     },
     filename: 'my-sw.js',
