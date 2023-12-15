@@ -1,6 +1,27 @@
 @font-face {
   font-weight: 400;
-  font-family: 'Brandon';
+  font-family: 'Hoefler';
   src: url('HoeflerText.ttf') format('truetype');
+  font-style: normal;
+}
+
+@font-face {
+  font-weight: 400;
+  font-family: 'Brandon';
+  src: url('Brandon_reg.otf') format('truetype');
+  font-style: normal;
+}
+
+@font-face {
+  font-weight: 400;
+  font-family: 'Euclid';
+  src: url('EuclidTriangle.otf') format('truetype');
+  font-style: normal;
+}
+
+@font-face {
+  font-weight: 400;
+  font-family: 'GTSectra';
+  src: url('GTSectra.otf') format('truetype');
   font-style: normal;
 }

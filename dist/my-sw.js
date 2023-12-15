@@ -1233,7 +1233,7 @@ class ae extends K {
     return s;
   }
 }
-se([{"revision":null,"url":"assets/index-NNiAbaVx.css"},{"revision":null,"url":"assets/index-sz9X3tTF.js"},{"revision":null,"url":"assets/react-h3aPdYU7.svg"},{"revision":"1f55925e52b9e71fd57108874184060d","url":"Brandon_reg.otf"},{"revision":"b1f94af335d38b84660fb54592650931","url":"fonts.css"},{"revision":"f6431f237f05c5ec6d98b76383b80985","url":"index.html"},{"revision":"b09fd4d0fd981dede101975ba912199b","url":"registerSW.js"},{"revision":"8e3a10e157f75ada21ab742c022d5430","url":"vite.svg"},{"revision":"663d843d81e82ab934ffe8d64451442f","url":"manifest.webmanifest"}]);
+se([{"revision":null,"url":"assets/index-Dla0VF25.css"},{"revision":null,"url":"assets/index-OTg1P14R.js"},{"revision":null,"url":"assets/react-h3aPdYU7.svg"},{"revision":"1f55925e52b9e71fd57108874184060d","url":"Brandon_reg.otf"},{"revision":"ffc95ea9efd7429e628c094f8f793dc0","url":"EuclidTriangle.otf"},{"revision":"87ac47740da406c248beb340c2cb5622","url":"fonts.css"},{"revision":"bee255fb8c82a62d1a27777c2524c4e9","url":"GTSectra.otf"},{"revision":"b7208ca71a4f2ea7854bb4fab71c3d2c","url":"index.html"},{"revision":"b09fd4d0fd981dede101975ba912199b","url":"registerSW.js"},{"revision":"8e3a10e157f75ada21ab742c022d5430","url":"vite.svg"},{"revision":"663d843d81e82ab934ffe8d64451442f","url":"manifest.webmanifest"}]);
 console.log("HELLO worlds 1");
 x(({ request: a }) => (console.log(a.destination), console.log(a.url), a.destination === "font"), new ae({
   cacheName: "fonts"

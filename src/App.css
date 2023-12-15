@@ -40,3 +40,19 @@
 .read-the-docs {
   color: #888;
 }
+
+.hoefler {
+  font-family: Hoefler, monospace;
+}
+
+.brandon {
+  font-family: Brandon, monospace;
+}
+
+.euclid {
+  font-family: Euclid, monospace;
+}
+
+.gtsectra {
+  font-family: GTSectra;
+}
