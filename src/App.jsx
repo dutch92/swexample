@@ -20,6 +20,11 @@ function App() {
       <h1 className="brandon">Brandon Text</h1>
       <h1 className="euclid">Euclid Text</h1>
       <h1 className="gtsectra">GTSectra Text</h1>
+      <hr/>
+      <h1 className="hoeflerRemote">Hoefler Text</h1>
+      <h1 className="brandonRemote">Brandon Text</h1>
+      <h1 className="euclidRemote">Euclid Text</h1>
+      <h1 className="gtsectraRemote">GTSectra Text</h1>
       <h1>Vite + React</h1>
       <div className="card">
         <button onClick={() => setCount((count) => count + 1)}>

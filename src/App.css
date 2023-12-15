@@ -54,5 +54,21 @@
 }
 
 .gtsectra {
-  font-family: GTSectra;
+  font-family: GTSectra, monospace;
+}
+
+.hoeflerRemote {
+  font-family: HoeflerRemote, monospace;
+}
+
+.brandonRemote {
+  font-family: BrandonRemote, monospace;
+}
+
+.euclidRemote {
+  font-family: EuclidRemote, monospace;
+}
+
+.gtsectraRemote {
+  font-family: GTSectraRemote, monospace;
 }

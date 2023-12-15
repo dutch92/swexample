@@ -25,3 +25,31 @@
   src: url('GTSectra.otf') format('truetype');
   font-style: normal;
 }
+
+@font-face {
+  font-weight: 400;
+  font-family: 'HoeflerRemote';
+  src: url('https://assets.sandbox.safariportal.app/95da309a/static/media/HoeflerText-Regular.52a82c58.ttf') format('truetype');
+  font-style: normal;
+}
+
+@font-face {
+  font-weight: 400;
+  font-family: 'BrandonRemote';
+  src: url('https://assets.sandbox.safariportal.app/95da309a/static/media/Brandon_reg.cac94907.otf') format('truetype');
+  font-style: normal;
+}
+
+@font-face {
+  font-weight: 400;
+  font-family: 'EuclidRemote';
+  src: url('https://assets.sandbox.safariportal.app/95da309a/static/media/EuclidTriangle-Regular.b6687ddc.otf') format('truetype');
+  font-style: normal;
+}
+
+@font-face {
+  font-weight: 400;
+  font-family: 'GTSectraRemote';
+  src: url('https://assets.sandbox.safariportal.app/95da309a/static/media/GTSectra-Regular.3a92857e.otf') format('truetype');
+  font-style: normal;
+}
